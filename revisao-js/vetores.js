@@ -1,4 +1,4 @@
-let frutas = ['laranjas', ',maçã', 'banana', 'pera', 'uva', 'mamão']
+let frutas = ['laranjas', 'maçã', 'banana', 'pera', 'uva', 'mamão']
 
 //exibir o vetor
 console.log(frutas)
@@ -10,7 +10,7 @@ console.log(frutas)
 console.log(ultimaFruta)
 
 // Tirar o primeiro elemento do vetor
-let primeiraFruta = Frutas.shift()
+let primeiraFruta = frutas.shift()
 
 console.log(frutas)
 console.log(primeiraFruta)
@@ -86,7 +86,7 @@ console.log('---------------------------------')
 
   //foreach() utilizado arrow function como parametro
   frutas.forEach(elemento => console.log(elemento))
-  
+
 
 
 
